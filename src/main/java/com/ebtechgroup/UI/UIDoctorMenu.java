@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class UIDoctorMenu {
     public static ArrayList<Doctor> doctorsWithAvailableAppointments = new ArrayList<>();
+
     public static void showDoctorMenu() {
         int response = 0;
         do {

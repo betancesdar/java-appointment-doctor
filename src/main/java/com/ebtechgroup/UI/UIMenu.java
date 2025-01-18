@@ -100,6 +100,7 @@ public class UIMenu {
                         emailCorrect = true;
                         nurseLogged = n;
                         //Show Nurse Menu.
+                        UINurseMenu.showNurseMenu();
                     }
                 }
             }
@@ -108,7 +109,7 @@ public class UIMenu {
 
     }
 
-    private static void showPatientMenu() {
+    /*private static void showPatientMenu() {
         int response;
         do {
             System.out.println("\n\n");
@@ -138,5 +139,5 @@ public class UIMenu {
             }
         }while (response != 0);
 
-    }
+    }*/
 }

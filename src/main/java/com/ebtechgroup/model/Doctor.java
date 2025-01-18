@@ -75,7 +75,7 @@ public class Doctor extends User {
         }
 
         public String getTime() {
-            return time;
+            return time + " hrs.";
         }
 
         public void setTime(String time) {
@@ -84,7 +84,7 @@ public class Doctor extends User {
 
         @Override
         public String toString() {
-            return "Available Appoinments \n Date: " + date + "\n Time: " + time;
+            return "Available Appointments \n Date: " + date + "\n Time: " + time;
         }
     }
 
